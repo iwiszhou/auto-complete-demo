@@ -1,0 +1,37 @@
+.auto-complete-comp {
+  padding: 0px 50px 50px;
+  text-align: center;
+
+  .highlight {
+    background-color: yellow;
+  }
+
+  .name-wrap {
+    border: 1px solid gray;
+    border-radius: 5px;
+    .item {
+      padding: 10px;
+    }
+  }
+
+  .keyword-input-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+
+  .error-wrap {
+    color: lightcoral;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .loader {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+  }
+}
